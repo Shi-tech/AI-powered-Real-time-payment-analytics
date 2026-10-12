@@ -194,42 +194,7 @@ An LLM-powered analytics assistant that analyzes business metrics and generates:
 
 ---
 
-## Repository Structure
 
-```text
-ai-payment-analytics-platform/
-
-├── ai-agent/
-│   └── payment_insights_agent.py
-
-├── airflow/
-│   └── dag_payment_pipeline.py
-
-├── data-generator/
-│   └── payment_event_generator.py
-
-├── kafka/
-│   ├── producer.py
-│   ├── consumer.py
-│   └── docker-compose.yml
-
-├── spark/
-│   ├── stream_from_kafka.py
-│   ├── bronze_to_silver.py
-│   └── silver_to_gold.py
-
-├── snowflake/
-│   └── load_gold_to_snowflake.py
-
-├── dashboard/
-│   └── tableau_dashboard.md
-
-├── databricks/
-│   └── databricks_pipeline.md
-
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -255,13 +220,9 @@ ai-payment-analytics-platform/
 * Fraud Detection Models
 * Real-Time Alerting Framework
 * Data Quality Monitoring
-* CI/CD Pipeline Deployment
-* Cloud-Native Infrastructure Deployment
+
 
 ---
 
-## Author
-
-**Sai Prakash Vudutala**
 
 Data Engineer | Python | SQL | Spark | Kafka | Snowflake | Airflow | Databricks | GenAI
